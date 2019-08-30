@@ -1,6 +1,5 @@
 # bitbar/ubunopy
 
-# based on Ubuntu 18.04 LTS
 FROM bitbar/ubuno:1.0.0
 
 LABEL vendor="Bitbar Inc" \
