@@ -10,9 +10,14 @@
   * Node.js LTS (10)
   * [learn more](https://github.com/bitbar/ubuno)
 
-* Python 3 + pip (Python 2.7 installed by Node.js installer)
+* Python 3 + pip
+* Python 2.7 + pip
 
 ## Changelog
+
+* **1.2.0**
+
+  * Added python2.7
 
 * **1.1.0**
 

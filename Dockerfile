@@ -9,4 +9,5 @@ LABEL vendor="Bitbar Inc" \
 RUN apt-get update
 RUN apt-get dist-upgrade -y
 RUN apt-get install -qy -o APT::Install-Recommend=false -o APT::Install-Suggests=false \
+    python python-pip \
     python3 python3-pip
