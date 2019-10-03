@@ -8,6 +8,9 @@ LABEL vendor="Bitbar Inc" \
 # installing apt packages
 RUN apt-get update
 RUN apt-get dist-upgrade -y
-RUN apt-get install -qy -o APT::Install-Recommend=false -o APT::Install-Suggests=false \
+RUN apt-get install -qy \
+    -o APT::Install-Recommend=false \
+    -o APT::Install-Suggests=false \
+    --fix-missing \
     python python-pip \
     python3 python3-pip
