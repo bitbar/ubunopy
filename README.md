@@ -7,13 +7,17 @@
 * Based on [bitbar/ubuno](https://github.com/bitbar/ubuno) which has:
 
   * Ubuntu LTS (18.04)
-  * Node.js LTS (10)
+  * Node.js LTS (12)
   * [learn more](https://github.com/bitbar/ubuno)
 
 * Python 3 + pip
 * Python 2.7 + pip
 
 ## Changelog
+
+* **2.0.0**
+
+  * Updated Node.js version to 12 LTS
 
 * **1.2.0**
 
